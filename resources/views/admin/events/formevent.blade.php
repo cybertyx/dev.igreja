@@ -27,17 +27,6 @@
         @endif
     </div>
 </div>
-
-<div class="form-row">
-    <div class="form-label col-md-2">
-        <label for="">
-            Titulo:<span class="required"> *</span>
-        </label>
-    </div>
-    <div class="form-input col-md-8">
-        {!!Form::text('title', null, ['class' => 'parsley-validated', 'placeholder' => 'Titulo do Evento.'])!!}
-    </div>
-</div>
 <div class="form-row">
     <div class="form-label col-md-2">
         <label for="">
@@ -47,7 +36,16 @@
     <div class="form-input col-md-8">
         {!!Form::checkbox('published', '1')!!}
     </div>
-
+</div>
+<div class="form-row">
+    <div class="form-label col-md-2">
+        <label for="">
+            Titulo:<span class="required"> *</span>
+        </label>
+    </div>
+    <div class="form-input col-md-8">
+        {!!Form::text('title', null, ['class' => 'parsley-validated', 'placeholder' => 'Titulo do Evento.'])!!}
+    </div>
 </div>
 <div class="form-row">
     <div class="form-label col-md-2">
