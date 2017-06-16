@@ -13,7 +13,6 @@
                         <h2 class="text-theme-colored font-36">História do Santuário Santo Antônio</h2>
                         <ol class="breadcrumb text-center mt-10 white">
                             <li><a href="#">Home</a></li>
-                            <li><a href="#">Pages</a></li>
                             <li class="active">História</li>
                         </ol>
                     </div>
@@ -52,42 +51,42 @@
                 <div class="col-sm-12 col-md-7">
                     <div class="image-carousel">
                         <div class="item">
-                            <div class="thumb">
+                            <div class="thumb" style="width: 653px; height: 400px;">
                                 <img src="{{url('assets/images/historia/fotos_antigas07.jpg')}}" alt="">
                             </div>
                         </div>
                         <div class="item">
-                            <div class="thumb">
+                            <div class="thumb" style="width: 653px; height: 400px;">
                                 <img src="{{url('assets/images/historia/fotos_antigas10.jpg')}}" alt="">
                             </div>
                         </div>
                         <div class="item">
-                            <div class="thumb">
+                            <div class="thumb" style="width: 653px; height: 400px;">
                                 <img src="{{url('assets/images/historia/fotos_antigas11.jpg')}}" alt="">
                             </div>
                         </div>
                         <div class="item">
-                            <div class="thumb">
+                            <div class="thumb" style="width: 653px; height: 400px;">
                                 <img src="{{url('assets/images/historia/fotos_antigas15.jpg')}}" alt="">
                             </div>
                         </div>
                         <div class="item">
-                            <div class="thumb">
+                            <div class="thumb" style="width: 653px; height: 400px;">
                                 <img src="{{url('assets/images/historia/fotos_antigas19.jpg')}}" alt="">
                             </div>
                         </div>
                         <div class="item">
-                            <div class="thumb">
+                            <div class="thumb" style="width: 653px; height: 400px;">
                                 <img src="{{url('assets/images/historia/fotos_antigas21.jpg')}}" alt="">
                             </div>
                         </div>
                         <div class="item">
-                            <div class="thumb">
+                            <div class="thumb" style="width: 653px; height: 400px;">
                                 <img src="{{url('assets/images/historia/fotos_antigas23.jpg')}}" alt="">
                             </div>
                         </div>
                         <div class="item">
-                            <div class="thumb">
+                            <div class="thumb" style="width: 653px; height: 400px;">
                                 <img src="{{url('assets/images/historia/fotos_antigas25.jpg')}}" alt="">
                             </div>
                         </div>

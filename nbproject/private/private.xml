@@ -3,12 +3,9 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/wamp64/www/igreja/resources/views/site/eventos/eventosDetalhes.blade.php</file>
-            <file>file:/C:/wamp64/www/igreja/resources/views/admin/events/formevent.blade.php</file>
-            <file>file:/C:/wamp64/www/igreja/resources/views/site/eventos/eventos.blade.php</file>
-            <file>file:/C:/wamp64/www/igreja/app/Http/Controllers/AdminController.php</file>
-            <file>file:/C:/wamp64/www/igreja/app/Http/Controllers/SiteController.php</file>
-            <file>file:/C:/wamp64/www/igreja/routes/web.php</file>
+            <file>file:/C:/wamp64/www/dev.igreja/resources/views/site/home/index.blade.php</file>
+            <file>file:/C:/wamp64/www/dev.igreja/resources/views/site/eventos/eventos.blade.php</file>
+            <file>file:/C:/wamp64/www/dev.igreja/app/Http/Controllers/SiteController.php</file>
         </group>
     </open-files>
 </project-private>

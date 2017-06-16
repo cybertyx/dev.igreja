@@ -12,8 +12,9 @@ class SiteController extends Controller
     }
     
     public function index() {
+        $events = Events::all();
         $title = 'Santuário Santo Antonio';
-        return view('site.home.index', compact('title'));
+        return view('site.home.index', compact('title', 'events'));
     }
     
     public function f_Ondefica() {

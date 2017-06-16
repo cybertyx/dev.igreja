@@ -93,9 +93,15 @@
                                             <a href="#" class="text-white">Suporte</a>
                                         </li>
                                         <li class="text-white">|</li>
+                                        @if(auth()->check())
+                                         <li>
+                                             <a href="{{ route('adminigreja') }}" class="text-white">Logado como:<span style="color: #ff0000;">  {{auth()->user()->name}}</span></a>
+                                        </li>
+                                        @else
                                         <li>
                                             <a href="{{ route('login') }}" class="text-white">Logar</a>
                                         </li>
+                                        @endif
                                     </ul>
                                 </div>
                             </div>
@@ -115,7 +121,7 @@
                         <div class="row">
                             <div class="col-xs-12 col-sm-4 col-md-5">
                                 <div class="widget no-border m-0">
-                                    <a class="xs-pull-center" href="javascript:void(0)"><img src="{{url('assets/images/logo-wide.png')}}" alt="Logo Santo Antonio"></a>
+                                    <a class="xs-pull-center" href="{{url('')}}"><img src="{{url('assets/images/logo-wide.png')}}" alt="Logo Santo Antonio"></a>
                                 </div>
                             </div>
                             <div class="col-xs-12 col-sm-4 col-md-4">
